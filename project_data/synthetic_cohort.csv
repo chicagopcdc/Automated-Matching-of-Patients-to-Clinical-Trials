@@ -1,0 +1,21 @@
+Age (Days),Height (cm),Female,African-American,Performance Status (Lanksy/Karnofsky),Diagnosis,CNS Involvement (1/2/3),Isolated CNS Disease,Days Since Cytotoxic Chemotherapy,Days Since Biologic Therapy,Days Since Growth Factor Therapy,Days Since Corticosteroids,Days Since Prior Radiotherapy,Creatinine (mg/dL),AST/ALT Times ULN,Direct Bilirubin Times ULN,Reduced Cardiac Ejection Fraction or Lifetime Antracycline Exposure >400 mg/m2,"Active and/or Uncontrolled Viral, Bacterial, or Fungal Infection","Pregnant, Nursing, or Fertile and Unwilling to Use Contraception",Top1Predicted,Top3Predicted
+4995,134.92000000000002,True,True,40,Relapsed ALL,3,True,37,27,3,82,76,0.8,7.0,5.0,True,True,False,0,1
+7017,167.27200000000005,False,True,90,Therapy-Related Acute Myeloid Leukemia,1,False,67,8,9,71,100,0.7000000000000001,6.0,2.0,False,True,True,0,1
+614,64.824,False,True,80,ALL refractory,3,True,44,54,58,86,124,0.9,7.0,7.0,False,False,False,0,1
+3434,109.944,True,False,80,refractory ALL,3,True,42,67,21,32,74,0.7000000000000001,1.0,1.0,True,True,True,0,1
+5219,138.50400000000002,True,True,80,Refractory AML,3,True,23,23,91,0,198,0.8,0.5,6.0,True,True,True,0,1
+448,62.168,False,True,40,refractory ALL,1,True,74,15,94,66,180,1.5,4.0,3.0,False,True,True,0,1
+3412,109.592,False,False,80,ALL refractory,1,False,22,70,29,19,9,0.8,5.0,5.0,False,True,True,0,1
+7282,171.512,True,False,10,ALL refractory,1,True,16,7,67,83,114,1.3,7.0,7.0,True,True,True,0,1
+1851,84.616,False,True,80,Therapy-Related Acute Myeloid Leukemia,2,True,65,31,41,83,143,0.8,7.0,0.5,True,True,True,0,1
+4140,121.24,False,True,70,Recurrent B Acute Lymphoblastic Leukemia,3,False,13,6,80,90,189,1.7000000000000002,4.0,7.0,False,True,True,0,1
+6897,165.352,False,False,20,Recurrent B Acute Lymphoblastic Leukemia,2,False,68,92,8,24,151,1.3,3.0,5.0,True,False,False,0,1
+329,60.264,False,False,90,"Lymphoblastic Leukemia, Acute, Childhood",1,True,59,59,75,72,31,1.3,3.0,3.0,False,False,False,0,1
+1730,82.68,False,False,30,AML refractory,3,True,58,76,96,3,140,0.7000000000000001,2.0,4.0,True,True,True,1,1
+639,65.22399999999999,False,True,50,Recurrent B Acute Lymphoblastic Leukemia,1,True,83,0,58,97,47,0.6000000000000001,2.0,6.0,False,True,True,0,0
+3503,111.048,True,True,40,Refractory AML,1,False,90,99,16,6,41,1.0,5.0,0.5,False,True,True,0,1
+929,69.86399999999999,False,True,40,"Lymphoblastic Lymphoma, Childhood",3,False,61,7,39,62,142,1.6,4.0,3.0,True,False,True,1,1
+931,69.896,True,True,20,Refractory AML,1,True,28,66,40,62,92,1.5,4.0,0.5,False,True,False,0,1
+4396,125.336,False,True,30,Recurrent Acute Myeloid Leukemia,2,True,96,0,33,93,180,1.3,7.0,7.0,True,True,True,1,1
+3706,114.296,True,True,30,Refractory AML,1,True,87,62,40,17,181,1.3,1.0,6.0,True,True,False,0,1
+7179,169.864,True,False,40,refractory AML,3,True,16,91,90,60,76,1.2000000000000002,0.5,5.0,False,True,False,0,1
