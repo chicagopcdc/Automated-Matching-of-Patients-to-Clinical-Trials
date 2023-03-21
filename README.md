@@ -82,6 +82,61 @@ Description:
 - The notebook then can simply be run cell-by-cell from start to finish in order to reproduce the results.
 
 ### gearboxNLP
+Expeceted input:
+- embedding and classifier model that can be found in the trained_ML_models folder  
+- A patient input in the form of a dictionary, where the attributes are key values of the patient characteristics. For instance the following
+```
+patient = {
+           #patient's age in days
+           "Age (Days)": 7000,
+           
+           #patient's height in cm
+           "Height (cm)": 122,
+           
+           #patient's gender (female == True)
+           "Female": True,
+           
+           #patient's self-identified race (included to calculate eGFR using MDRD equation)
+           "African-American": False,
+    
+           #Lanksy or Karnofsky performance status scale (depending on age)
+           "Performance Status (Lanksy/Karnofsky)": 50,
+           
+           #patient's diagnosis 
+           "Diagnosis": 'Refractory AML',
+           
+           #CNS involvement scale
+           "CNS Involvement (1/2/3)": 1,
+           
+           #presence of isolated CNS disease
+           "Isolated CNS Disease": False,
+           
+           #days since prior therapies as integer - input False for treatments the patients has not had
+           "Days Since Cytotoxic Chemotherapy": False,
+           "Days Since Biologic Therapy": 50,
+           "Days Since Growth Factor Therapy": 60,
+           "Days Since Corticosteroids": 40,
+           "Days Since Prior Radiotherapy": 10,
+           
+           #creatinine in mg/dL
+           "Creatinine (mg/dL)": 1.0,
+           
+           #hepatic function times ULN - e.g. if AST and/or ALT is 2x ULN, input 2
+           "AST/ALT Times ULN": 2,
+           "Direct Bilirubin Times ULN": 2,
+           
+           #true if reduced EF, high anthracycline exposure, etc.
+           "Impaired Cardiovascular Function/Cardiotoxicity from Chemotherapy": True,
+           
+           #true if patient current has an active infection (including HIV)
+           "Active and/or Uncontrolled Viral, Bacterial, or Fungal Infection": True,
+           
+           #true if patient is pregnant, nursing, or fertile and unwilling to use contraception during the study
+           "Pregnant, Nursing, or Fertile and Unwilling to Use Contraception": True}
+```
 
+- A list of trials in the form of either google docs or NCT ID's from clinicaltrials.gov trials
+
+The NLPgearbox function will output the trials the patient is a potential match with.
 
 Can you please expand on the README page to include more description of what is included in each notebook and file (e.g., where to find synthetic dataset creation)
