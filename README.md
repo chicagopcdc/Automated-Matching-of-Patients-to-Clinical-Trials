@@ -86,7 +86,7 @@ Description:
 - The notebook then can simply be run cell-by-cell from start to finish in order to reproduce the results.
 
 ### gearboxNLP
-Expeceted input:
+Expected input:
 - embedding and classifier model that can be found in the trained_ML_models folder  
 - A patient input in the form of a dictionary, where the attributes are key values of the patient characteristics. For instance the following
 ```
